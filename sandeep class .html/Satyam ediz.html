@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandeep Class - Commerce Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Prompt', sans-serif;
+      background: linear-gradient(to bottom, #faf9f8be, #f1f8ff);
+      color: #222;
+    }
+
+    header {
+      background: url('file:///C:/Users/hp/OneDrive/Pictures/me%20Satyam/AWibGY.jpg') center/cover no-repeat;
+      color: rgba(158, 3, 248, 0.918);
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease;
+    }
+
+    header p {
+      font-size: 1.4em;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 15px;
+    }
+
+    .header-top img {
+      height: 80px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background: #003566;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd60a;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #90e0ef, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.7em;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    .section h2 {
+      font-size: 2.2em;
+      text-align: center;
+      color: #0077b6;
+    }
+
+    .courses ul, .notes ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .courses li, .notes li {
+      font-size: 1.2em;
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .courses li::before, .notes li::before {
+      content: '📘';
+      position: absolute;
+      left: 0;
+    }
+
+    .profile-img {
+      display: block;
+      max-width: 180px;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      padding: 12px 25px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background-color: #023e8a;
+    }
+
+    .contact p, .contact a {
+      font-size: 1.1em;
+      color: #222;
+    }
+
+    .contact strong {
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    footer {
+      background: #001d3d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <img src="file:///C:/Users/hp/OneDrive/Desktop/logo.png" alt="Sandeep Logo" />
+     
+    <h1>Sandeep Class</h1>
+    
+    
+        <p>Learn. Grow. Succeed.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#notes">Study Notes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Sandeep Class</h2>
+    <p>Satna's Best Coaching for Commerce Students</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Sandeep Sir</h2>
+    <img src="file:///C:/Users/hp/OneDrive/Desktop/WhatsApp%20Image%202025-04-20%20at%202.02.38%20PM.jpeg" alt="Sandeep Tripathi" class="profile-img" />
+    <p style="text-align: center;">Sandeep Tripathi is a passionate commerce educator with 18 years of experience in teaching Accounts, Economics, and Business Studies to 11th & 12th grade students.</p>
+  </section>
+
+  <section id="courses" class="section courses">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>Accountancy - Class 11 & 12</li>
+      <li>Business Studies - Class 11 & 12</li>
+      <li>Economics - Class 11 & 12</li>
+    </ul>
+  </section>
+
+  <section id="notes" class="section notes">
+    <h2>Study Materials</h2>
+    <p style="text-align:center;">Download latest notes & PDFs to study better:</p>
+    <ul>
+        <section id="notes" class="section">
+            <h2>📚 Notes & Study Materials</h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+              <div style="background:#f0f4ff; border-radius:12px; padding:20px; width:260px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                <h3>📘 Accountancy Notes Class 11 2024-25</h3>
+                <a href="file:///C:/Users/hp/OneDrive/Pictures/me%20Satyam/All%20accounts%20Imeges%20session%202024-25.pdf" target="_blank" style="color:#0077b6; font-weight:bold;">Download PDF</a>
+              </div>
+              <div style="background:#fef9ef; border-radius:12px; padding:20px; width:260px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                <h3>📗 Accountancy Notes Class 12 2025  </h3>
+                <a href="pdfs/Economics_Chapter1.pdf" target="_blank" style="color:#0077b6; font-weight:bold;">Download PDF</a>
+              </div>
+              <div style="background:#fff0f5; border-radius:12px; padding:20px; width:260px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                <h3>📙 Economics </h3>
+                <a href="pdfs/BST_Summary.pdf" target="_blank" style="color:#0077b6; font-weight:bold;">Download PDF</a>
+              </div>
+            </div>
+          </section>
+          
+
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p><strong>📍 Address:</strong> Behind Crash Jyoti School, Bus Stand, Satna (M.P)</p>
+    <p><strong>📞 Phone:</strong> <a href="tel:9630382908">9630382908</a></p>
+    <p><strong>📧 Email:</strong> <a href="mailto:tripathijeesatna89@gmail.com">tripathijeesatna89@gmail.com</a></p>
+    <p><strong> Instagram:</strong> <a href="classesbysandeepsir">classesbysandeepsir</a></p>
+  </section>
+
+  <section class="section">
+    <h2></h2>
+    <form>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandeep Class - Commerce Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9f0ff);
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+    form input, form button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+    form button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #023e8a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sandeep Class - Enrollment</h1>
+  </header>
+
+  <section class="section">
+    <h2>Enroll Now</h2>
+    <form id="enroll-form">
+      <input type="text" id="enrollment-number" placeholder="Enter Your Enrollment Number" required />
+      <button type="button" onclick="sendOtp()">Send OTP</button>
+      
+      <div id="otp-section" style="display:none;">
+        <input type="text" id="otp" placeholder="Enter OTP" required />
+        <button type="button" onclick="verifyOtp()">Verify OTP</button>
+      </div>
+    </form>
+  </section>
+
+  <script>
+    function sendOtp() {
+      const enrollmentNumber = document.getElementById("enrollment-number").value;
+      
+      if (!enrollmentNumber) {
+        alert("Please enter your enrollment number.");
+        return;
+      }
+
+      // Send enrollment number to backend for OTP
+      fetch("send_otp.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: "enrollment_number=" + enrollmentNumber
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert("OTP has been sent to your phone.");
+          document.getElementById("otp-section").style.display = "block";
+        } else {
+          alert("There was an error sending OTP. Please try again.");
+        }
+      });
+    }
+
+    function verifyOtp() {
+      const otp = document.getElementById("otp").value;
+
+      if (!otp) {
+        alert("Please enter the OTP.");
+        return;
+      }
+
+      // Verify OTP with backend
+      fetch("verify_otp.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: "otp=" + otp
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert("OTP verified successfully! Enrollment complete.");
+        } else {
+          alert("Invalid OTP. Please try again.");
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
+
+      <input type="text" placeholder="Your Name" required />
+      <input type="text" placeholder="Class" required />
+      <input type="text" placeholder="Subjects Interested In" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <textarea placeholder="Any message..."></textarea>
+      <button type="submit">Submit</button>
+      
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sandeep Class. All rights reserved.</p>
+    <p>Design by Satyam Singh 💻</p>
+  </footer>
+
+</body>
+</html>
